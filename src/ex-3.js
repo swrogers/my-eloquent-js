@@ -15,6 +15,8 @@ let line = "";
 
 for (let x = 0; x < size; x++) {
   for (let y = 0; y < size; y++) {
+    //The "even" squares get a space
+    // "odd" squares get a hashmark
     (x + y) % 2 ? (line += "#") : (line += " ");
   }
   console.log(line);
