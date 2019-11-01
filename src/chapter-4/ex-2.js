@@ -44,3 +44,6 @@ console.log(reverseArray(["A", "B", "C"]));
 
 console.log(reverseArrayInPlace([0, 1, 3, 4]));
 console.log(reverseArrayInPlace([0, 1, 3, 4, 5]));
+
+let a = ["A", "B", "C", "D", "E"];
+console.log(reverseArrayInPlace(a));
